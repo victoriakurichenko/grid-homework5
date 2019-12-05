@@ -1,0 +1,24 @@
+
+body {
+
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.grid-container {
+    margin-top: 40px;
+    display: grid; 
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-gap: 40px;
+    grid-template-rows: 150px 150px;
+
+}
+
+.grid-container  div {
+
+    font-size: 36px;
+    background-color: #b8e986;
+    font-weight: bold;
+    padding: 10px 0px 0px 10px;
+
+}
